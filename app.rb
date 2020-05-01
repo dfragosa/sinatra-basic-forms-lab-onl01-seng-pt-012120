@@ -13,7 +13,7 @@ get '/new' do
 end
 
 post '/puppy' do 
-  
+  new_page = Puppy.new
   erb :display_puppy
 end
 
