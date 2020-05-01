@@ -6,8 +6,13 @@ get '/' do
   erb :index
 end
 
-post '/new' do
+get '/new' do
   erb :new
 end
+
+post '/puppy' do 
+  erb :puppy
+end
+
 
 end
