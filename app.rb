@@ -14,7 +14,7 @@ end
 
 post '/puppy' do 
   @puppy = Puppy.new(params[:name], params[:age], params[breed])
-  erb :display_puppy
+  erb :create_puppy
 end
 
 end
