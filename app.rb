@@ -1,3 +1,4 @@
+require 'pry'
 require_relative 'config/environment'
 require_relative 'models/puppy'
 
@@ -9,11 +10,11 @@ end
 
 get '/new' do
   erb :index
-
 end
 
 post '/puppy' do 
   erb :puppy
+binding.pry
 end
 
 
