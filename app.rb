@@ -14,7 +14,6 @@ end
 
 post '/puppy' do 
   erb :puppy
-binding.pry
 end
 
 end
