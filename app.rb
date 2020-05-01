@@ -9,6 +9,7 @@ end
 
 get '/new' do
   erb :index
+
 end
 
 post '/puppy' do 
