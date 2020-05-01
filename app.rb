@@ -13,7 +13,7 @@ get '/new' do
 end
 
 post '/puppy' do 
-  erb :puppy
+  erb :display_puppy
 end
 
 end
